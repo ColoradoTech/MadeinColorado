@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<!--Designed by Jake Cohen for the Colorado Technology Association in 2013-->
+	<head>
+		<title>Made in Colorado-Map</title>
+		<link href="../CTA/css/CO.css" rel="stylesheet" type="text/css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="maximum-scale = 0.5" />
+		<!--<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />---->
+  		<script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js'></script>
+  		<link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' />
+	</head>
+<body>
+	<header>
+		<a href="../CTA/Made-in-Colorado.html"  title="Made in Colorado" target="">
+			<img src="../CTA/images/Made-in-Colorado5.png" alt="Made in Colorado">
+		</a>
+		<!---Mobile drop down------>
+			<ul id="menu">
+				<li><a href="../CTA/founders.html">
+					<img src="../CTA/images/Transparent.png" alt="Founders in Colorado" style="margin-top: -130px; ">
+					</a>
+
+        			<ul class="sub-menu">
+          		  <li>
+               		 <a href="../CTA/Made-in-Colorado.html"><img src="../CTA/images/Made-in-Colorado5.png" alt="Made in Colorado"></a>
+            		</li>
+           			  <li>
+              			  <a href="../CTA/founders.html"><img src="../CTA/images/Founders in Colorado Header.png" alt="Founders in Colorado"></a>
+           			 </li>
+           			 <li>
+             		   <a href="../CTA/Calendar.html"><img src="../CTA/images/Happening in Colorado Header.png" alt="Made in Colorado"></a>
+           			 </li>
+           			
+      			  </ul>
+ 			   </li>
+ 		   </ul>
+ 		  <!---End Mobile drop down------>
+		<a href="../CTA/Join.html" class="join" title="JOIN" target="">
+			<img src="../CTA/images/Join.png">
+		</a>
+		<a href="../CTA/about.html" class="about" title="about" target="">
+			<img src="../CTA/images/About.png">
+		</a>
+		<a href="../CTA/about.html" class="about2" title="about" target="">
+			<img src="../CTA/images/About2.png">
+		</a>
+	</header>
+			<nav class="navadjust">
+			<span class="tagline">A showcase of Colorado technology companies</span>
+			<span class="subtagline">A resource from the <a href="http://nytm.org/">Colorado Technology Association</a></span><ul>
+				
+				<li><a href="../CTA/list.html" class="listicon" title="List" target="" alt="list">
+						<img src="../CTA/images/listiconsmall.png"></a>
+				</li>
+				<li>
+				<a href="../CTA/Made-in-Colorado.html" class="gridicon" title="Grid" target="" alt="grid">
+					<img src="../CTA/images/gridicon.png">
+				</a>
+				</li>
+				<li><a href="../CTA/map.html" class="mapiconon" title="Map" target="" alt="map">
+						<img src="../CTA/images/mapicon.png"></a>
+				</li>
+			</ul>
+		</nav>
+		
+		<div id='map'></div>
+		<script type='text/javascript'>
+		var map = L.mapbox.map('map', 'coloradotech.map-nj1xuzqr');
+		</script>
+	<!---<div class="joinContent">
+		
+			<iframe class="mapiframe" frameBorder='0' src='http://a.tiles.mapbox.com/v3/coloradotech.map-nj1xuzqr.html#8/39.75364695419929/-104.9995558271416'></iframe>
+			
+		
+	</div>-->
+	
+
+</body>
+</html>

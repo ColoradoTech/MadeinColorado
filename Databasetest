@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// Create connection
+$con=mysqli_connect("mysql.apexcolorado.co","jackson_cohen","JcC-9229","companies_madeinco");
+
+// Check connection
+if (mysqli_connect_errno($con))
+  {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
+  
+$result = mysqli_query($con,"SELECT * FROM Companies");
+
+echo "<table border='1'>
+<tr>
+<th>CompanyName</th>
+<th>CompanyWebsite</th>
+</tr>";
+
+while($row = mysqli_fetch_array($result))
+  {
+  echo "<tr>";
+  echo "<td>" . $row['CompanyName'] . "</td>";
+  echo "<td>" . $row['CompanyWebsite'] . "</td>";
+  echo "</tr>";
+  }
+echo "</table>";
+
+mysqli_close($con);
+?>
+test
+</body>
+</html>

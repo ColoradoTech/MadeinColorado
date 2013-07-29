@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// Create connection
+$hostname = "mysql.apexcolorado.co";   // eg. mysql.yourdomain.com (unique)
+$username = "jackson_cohen";   // the username specified when setting-up the database
+$password = "JcC-9229";   // the password specified when setting-up the database
+$database = "companies_madeinco";   // the database name chosen when setting-up the database (unique)
+
+$link = mysql_connect($hostname,$username,$password);
+mysql_select_db($database) or die("Unable to select database");
+  
+  echo "Hello, world!";
+  
+
+$result = mysql_query($sql,$link) or die("Unable to select: ".mysql_error());
+
+
+while($row = mysql_fetch_row($result))
+  {
+  //$text  = 
+  echo "$row["CompanyName"]";
+  //$href  = 
+  echo "$row["CompanyWebsite"]";
+  //$output .= "<li><a href='productscatalog?id={$href}'>{$text}</a></li>";
+  }
+//echo "<ul>{$output}</ul>";
+
+mysqli_close($con);
+?>
+
+</body>
+</html>

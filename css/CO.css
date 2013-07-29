@@ -1,0 +1,553 @@
+body{
+	background: #fff;
+	margin: 0;
+}
+header {
+		position:fixed;
+		background: url('../images/redtexture.jpg') left top repeat-x;
+		padding-top: 15px; padding-bottom: 30px margin: 0 auto; min-width: 994px;
+		margin-top: -130px;
+		float: center;
+		z-index: 10;
+		width: 100%;
+	}
+	.clear {clear:both;}
+	header img{
+		 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+	}
+	article, header, nav, section, footer, aside { display: block; }
+	.join {
+		float: right;
+					top: 0; right: 100px; width: 76px; height: 76px;
+					position: fixed;
+				}
+	.about {
+		float: left;
+					top: 0; left: 10px; width: 76px; height: 76px;
+					position: fixed;
+				}
+	.about2 {
+					
+					display: none;
+					float: right;
+					top: 0; right: 109px; width: 76px; height: 76px;
+					position: fixed;
+					z-index: 10;
+				}
+	nav {
+	margin-top: 130px;
+	margin-left: 0px;
+	color: #666;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-width: 1px;
+	border-color:#fff;
+	background: #ecf3ea; /*light green gray background:#ecf3ea*/
+	/*background: url('/Users/jakecohen/Documents/CTA/images/greentexture2.png') left top repeat-x;*/
+	padding-top: 10px;
+	padding-bottom: 0px;
+	width: 101%;
+	height: 35px
+	font-family: helvetica, arial, sans-serif;
+	text-align:center;
+	}
+	.navadjust {
+		margin-bottom: -10px;
+	}
+	
+nav ul{
+	list-style-type: none;
+}
+	
+.tagline {
+font-size: 22px;
+line-height: 1em;
+vertical-align: middle;
+margin-right: auto;
+margin-left: auto;
+display: inline-block;
+}
+.subtagline {
+font-size: 15px;
+line-height: .7em;
+vertical-align: middle;
+margin-left: -32px;
+margin-top: 10px;
+display: none;
+}
+
+.listicon {
+		float: right;
+		margin-top: -42px;
+		margin-right: 30px;
+		padding: 7px 8px 8px;
+		}
+.gridicon {
+		float: right;
+		margin-top:-42px;
+		margin-right: 70px;
+		padding: 7px 8px 8px;
+		}
+.mapicon {
+		float: right;
+		margin-top:-45px;
+		margin-right: 110px;
+		padding: 7px 8px 8px;
+		}
+.foundericon {
+		float: right;
+		margin-top:-45px;
+		margin-right: 2px;
+		margin-left: 2px;
+		padding: 7px 8px 8px;
+		}
+			
+			
+.gridiconon {
+		float: right;
+		margin-top: -42px;
+		margin-right: 70px;
+		background: #d0dbd0;
+		box-shadow: inset 0 1px 1px #bfc9c1;
+		-moz-box-shadow: inset 0 1px 1px #bfc9c1;
+		-webkit-box-shadow: inset 0 1px 1px #bfc9c1;
+		border: 1px solid #b5bfb8;
+		border-top-color: #bfc9c1;
+		padding: 7px 8px 8px;
+		}
+.listiconon {
+		float: right;
+		margin-top: -43px;
+		margin-right: 30px;
+		background: #d0dbd0;
+		box-shadow: inset 0 1px 1px #bfc9c1;
+		-moz-box-shadow: inset 0 1px 1px #bfc9c1;
+		-webkit-box-shadow: inset 0 1px 1px #bfc9c1;
+		border: 1px solid #b5bfb8;
+		border-top-color: #bfc9c1;
+		padding: 6px 6px 6px;
+		}
+.mapiconon {
+		float: right;
+		margin-top: -47px;
+		margin-right: 110px;
+		background: #d0dbd0;
+		box-shadow: inset 0 1px 1px #bfc9c1;
+		-moz-box-shadow: inset 0 1px 1px #bfc9c1;
+		-webkit-box-shadow: inset 0 1px 1px #bfc9c1;
+		border: 1px solid #b5bfb8;
+		border-top-color: #bfc9c1;
+		padding: 7px 8px 8px;
+		}
+					
+a{
+	text-decoration: none;
+	color:#333;
+}
+a:visited{
+	text-decoration: none;
+	color:#000;
+}
+
+
+/*-----About Content-----*/
+.aboutContent{
+	background: url('../images/redtexture.jpg') left top repeat;
+	font-size: 22px;
+	color: #fff;
+	text-align:left;
+	float: left;
+	padding: 25px;
+	margin-left: 0px;
+	margin-top: -10px;
+	height: 600px;
+	font-family: helvetica, arial, sans-serif;
+	line-height: 1.5em;
+	
+}
+/*-----Join Content-----*/
+.joinContent{
+	margin-top: 130px;
+	
+}
+.calendarContent{
+	margin-top: 10px;
+	
+}
+.mapiframe{
+	width: 100%;
+	height: 200%;
+	margin-top: -121px;
+}
+ #map { margin-top: 178px; position:absolute; top:0; bottom:0; width:100%; }
+
+/*-------Companies-------*/
+.content {
+	margin-top: 10px;
+	text-align:center;
+	}
+article {
+		background: #fff;
+	}
+		article ol {
+			padding: 0px 10px;
+		
+			margin: 0;
+			line-height: 2.2em;
+			text-align: left; color: #ccc; 
+			font-size: 18px; 
+			
+			width: 740px; margin: 0 auto; 
+		}
+			article ol li {
+				padding-left: 10px;
+			}
+			article ol a {
+				color: #191919;
+			}
+				article ol a:hover {
+					color: #191919; text-decoration: underline;
+				}
+			.col1 {
+			 float: left;
+			}
+			.col2 {
+			 float: right;
+			}
+		
+		article ul {
+			float: left;
+			list-style-type: none;
+			max-width: 1425px; min-width: 994px; margin: 0 auto;
+			overflow: hidden;
+			margin-left: -39;
+			margin-top: -1px;
+			margin-right: -5;
+			padding: 0;
+		}
+			article ul li {
+				text-align: center; line-height: 130px;
+				width: 33.33333%;
+				position: relative; float: left;
+			}
+				.hiring {
+					top: 0; right: 1px; width: 76px; height: 76px;
+					position: absolute;
+					z-index: 2;
+				}
+					.hiring img {
+						vertical-align: top;
+						display: inline-block;
+					}
+				.badge{
+					top: 0; left: 0px; width: 76px; height: 76px;
+					position: absolute;
+					z-index: 2;
+					vertical-align: top;
+						display: inline-block;
+				}
+				.badge2{
+					bottom: 0; left: 0px; width: 76px; height: 76px;
+					position: absolute;
+					z-index: 2;
+					vertical-align: top;
+						display: inline-block;
+				}
+				.company {
+					padding: 50px 0; max-height: 130px; border: 1px solid #ccc; border-top: 0; margin-left: -1px;
+					position: relative; display: block;
+				} 
+					.company img {
+						vertical-align: middle;
+						max-width: 300px;
+						display: inline-block;
+						max-height: 128px;
+						min-height: 128px;
+					}
+				.company:hover {
+					 box-shadow: inset 0 0 8px #ccc; -moz-box-shadow: inset 0 0 8px #ccc; -webkit-box-shadow: inset 0 0 8px #ccc;
+				}
+				.founder {
+					padding: 50px 0; max-height: 130px; border: 1px solid #ccc; border-top: 0; margin-left: -1px;
+					position: relative; display: block;
+				} 
+					.founder img {
+						vertical-align: middle;
+						max-width: 146px;
+						display: inline-block;
+						border-radius: 50%;
+						-webkit-border-radius: 50%;
+
+					}
+					.founderlinkedin img{
+						vertical-align: middle;
+						max-width: 27px;
+						display: inline-block;
+						border-radius: 50%;
+						-webkit-border-radius: 50%;
+						float: right;	
+						margin-right: 10px;
+
+					}
+				.founder:hover {
+					 box-shadow: inset 0 0 8px #ccc; -moz-box-shadow: inset 0 0 8px #ccc; -webkit-box-shadow: inset 0 0 8px #ccc;
+				}
+				
+		.more {
+			color: #555; font-size: 14px; line-height: 1.5em;
+			background: #e0e0e0;
+			margin: 20px auto; padding: 5px 15px; border: 1px solid #ccc; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+			display: inline-block;
+		}
+			.more:hover {
+				color: #000;
+				background: #dbdbdb;
+			}
+			
+			
+			
+			
+/* Responsiveness */
+/* 5 companies */
+@media screen and ( min-width: 2039px ) {  
+	article ul {
+		min-width: 0; 
+		max-width: none; 
+		padding-left: 1px;
+	}
+		article ul li {
+			width: 20%;
+		}
+}
+
+/** 4 companies **/
+@media screen and ( min-width: 1423px ) and ( max-width: 2040px ) {
+	article ul {
+		min-width: 0; 
+		max-width: none; 
+		padding-left: 1px;
+	}
+		article ul li {
+			width: 25%;
+		}
+}
+/** 2 companies **/
+@media screen and ( max-width: 1024px ) {
+	header {
+		min-width: 0;
+	}
+	article ul {
+		min-width: 0;
+	}
+		article ul li {
+			width: 50%; border-left: 0;
+		}
+}
+
+/**  Adjusts header content sizes **/
+@media screen and ( max-width: 800px ) {
+	.tagline {
+		font-size: 18px;
+		margin-right: 0; margin-bottom: 0; padding: 0;
+		display: blocks;
+		line-height: .8em;
+	}
+		.listicon {
+		margin-right: 10px;
+		margin-top: -37.5px;
+		}
+		.gridicon {
+		margin-right: 50px;
+		margin-top: -37.5px;
+		}
+		.mapicon {
+		margin-right: 87px;
+		margin-top: -41.5px;
+		}
+			
+		.gridiconon {
+		margin-right: 50px;
+		margin-top: -37.5px;
+		}
+		.listiconon {
+		margin-right: 10px;
+		margin-top: -37.5px;
+		}
+		.mapiconon {
+		margin-right: 87px;
+		margin-top: -41.5px;
+		}
+	article ol {
+		font-size: 16px;
+		width: auto; max-width: 520px; padding-left: 60px; padding-right: 0;
+	}
+}
+
+/** 1 company **/
+@media screen and ( max-width: 660px ) {
+	.tagline {
+		font-size: 14px;
+		margin-left: -140px;
+		margin-right: 0; margin-bottom: 0; padding: 0;
+		display: block;
+		line-height: .8em;
+	}
+	.subtagline {
+		font-size: 10px;
+		line-height: 1.2em;
+		vertical-align: middle;
+		margin-left: -140px;
+		margin-top: 10px;
+	}
+		.listicon {
+		margin-right: 10px;
+		}
+		.gridicon {
+		margin-top: -37.5px;
+		margin-right: 50px;
+		}
+			
+		.gridiconon {
+		margin-top:-36.5px;
+		margin-right: 50px;
+		}
+		.listiconon {
+		margin-right: 10px;
+		}
+	header{
+		
+	}
+	header img{
+		 
+    	margin-left: -160px;  
+	
+	}
+	.join {
+		float: right;
+		margin-right: -180px;  
+		}
+	.about {
+		display: none;
+	}
+	.about2 {
+		display: block;
+		margin-right: -180px; 
+	}
+	article ul li {
+		width: 100%; border-left: 0; border-right: 0;
+	}
+}
+
+@media screen and ( max-width: 500px ) {
+
+	header{
+	padding-top: 3px;
+	padding-bottom: 13px;
+	}
+	nav{
+	 padding-top: 25px;
+	}
+
+	.tagline {
+	line-height: 1.2em;
+		font-size: 13px;
+		margin-left: -80px;
+		display: none;
+	}
+	.subtagline {
+		margin-left: -120px;
+		display: none;
+	}
+	
+	.listicon {
+	line-height: 1.4em;
+		margin-top: -39px;
+		}
+.gridicon {
+		margin-top: -38px;
+		}
+			
+.gridiconon {
+		margin-top: -38px;
+		}
+.listiconon {
+		margin-top: -40px;
+		}
+
+	.join {
+		display: none;
+	}
+	.about {
+		display: none;
+	}
+	.about2 {
+		display: none;
+	}
+}
+@media screen and ( max-width: 340px ) {
+	header img{
+    	margin-left: -200px;  
+	}
+	
+	.tagline{
+	 display: none;
+	}	
+}
+
+
+/*Test Menu*/
+
+ul#menu, ul#menu ul.sub-menu {
+    padding:0;
+    margin: 0;
+    float: left;
+    display: block;
+    margin-left: 25%;
+}
+ul#menu li, ul#menu ul.sub-menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: auto;
+	margin-right: auto;
+	 float: left;
+}
+/*Link Appearance*/
+ul#menu li a, ul#menu li ul.sub-menu li a {
+    text-decoration: none;
+    color: #fff;
+    background: url('../images/redtexture.jpg') left top repeat-x;
+    padding: 0px;
+    display:inline-block;
+    border-bottom: solid 1px #fff;
+  
+}
+ul#menu li a, ul#menu li ul.sub-menu li a {
+    border-bottom: solid 0px #fff;
+  
+}
+/*Make the parent of sub-menu relative*/
+ul#menu li {
+    position: relative;
+}
+/*sub menu*/
+ul#menu li ul.sub-menu {
+    display:none;
+    position: fixed;
+    top: 130px;
+    left: 0;
+    width: 100px;
+     margin-left: 34%;
+     padding-bottom: 1px;
+     
+}
+ul#menu li:hover ul.sub-menu {
+    display:block;
+   
+}
+ul#menu li ul.sub-menu img{
+		max-width: 400px;
+		border: solid 1px #fff;
+}
